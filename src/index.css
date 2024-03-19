@@ -5,9 +5,332 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: pink !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* HomePage.css */
+
+
+
+/* HomePage.css */
+
+.home-page {
+  background-image: url("./images/image1.jpg"); /* Path to your image */
+  background-position: center; 
+  padding-top: 280px;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.hi {
+  color: white;
+  font-size: 84px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.container {
+  max-width: 800px;
+  padding: 20px;
+}
+
+.miss{
+  color: white;
+  text-align: center;
+  font-size: 150px;
+}
+.button {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 46px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+  outline: none; /* Remove outline */
+  transition: all 0.5s ease; /* Add transition for smooth animation */
+}
+
+.button:hover {
+  background-color: lightgray;
+}
+
+.button:active {
+  transform: scale(0.8); /* Compress the button on click */
+}
+
+
+
+
+/* SecondPage.css */
+
+.transition-page {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-700px); /* Optional: Slide text from top */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* Optional: Slide text from top */
+  }
+}
+
+
+
+
+/* HomePage.css */
+
+
+.diaries {
+  font-size: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding-top: 30px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr); /* Adjust the number of columns */
+  gap: 30px; /* Adjust the gap between grid items */
+  padding: 70px 30px; /* Adjust the padding on the sides */
+}
+
+.grid-item {
+  height: 200px; /* Adjust the height of grid items */
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  position: relative;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px; /* Adjust the margin-left to center the tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.grid-item:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.item1 {
+  background-image: url("./images/image1.jpg");
+}
+
+.item2 {
+  background-image: url("./images/image2.jpg");
+}
+
+.item3 {
+  background-image: url("./images/image3.jpg");
+}
+
+.item4 {
+  background-image: url("./images/image4.jpg");
+}
+.item5 {
+  background-image: url("./images/image5.jpg");
+}
+.item6 {
+  background-image: url("./images/image6.jpg");
+}
+.item7 {
+  background-image: url("./images/image7.jpg");
+}
+.item8 {
+  background-image: url("./images/image8.jpg");
+}
+.item9 {
+  background-image: url("./images/image9.jpg");
+}
+.item10 {
+  background-image: url("./images/image10.jpg");
+}
+.item11 {
+  background-image: url("./images/image11.jpg");
+}
+.item12 {
+  background-image: url("./images/image12.png");
+}
+.item13 {
+  background-image: url("./images/image13.jpg");
+}
+.item14 {
+  background-image: url("./images/image14.jpg");
+}
+/* Add more styles for additional grid items as needed */
+
+/* Scale up the grid item on hover */
+.grid-item:hover {
+  transform: scale(1.1);
+}
+
+
+.button-back {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 80px; /* Adjust margin as needed */
+  transition: all 0.5s ease; 
+}
+
+.button-back:active {
+  transform: scale(0.8);
+}
+.button-next {
+  padding: 10px 20px;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 80px; /* Adjust margin as needed */
+  transition: all 0.5s ease;
+}
+.button-next:active {
+  transform: scale(0.8);
+}
+
+/* singer*/
+
+.singer-heading {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.singer-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-align: center;
+}
+.singer-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.singer-image {
+  height: 400px;
+  width: 300px;
+}
+
+
+/*LOOK*/
+
+.look-heading {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.look-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  text-align: center;
+}
+.look-text {
+  font-size: 30px;
+  text-align: center;
+}
+
+.look-image {
+  height: 400px;
+  width: 300px;
+}
+
+/*Food*/
+
+.finaltext {
+  color: rgb(41, 40, 40);
+  font-size: 26px;
+}
+
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+  z-index: 9999; /* Ensure the overlay is above other content */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-container {
+  max-width: 100%;
+  max-height: 180%;
+}
+
+.photo-container img {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.proof-button {
+  padding: 5px 10px; /* Adjust padding as needed */
+  display: inline-block; /* Ensures button takes up only necessary space */
+  margin: 5px; /* Adjust margin as needed */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Add border radius */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.proof-button:hover {
+  background-color: #0056b3; /* Darker background color on hover */
 }

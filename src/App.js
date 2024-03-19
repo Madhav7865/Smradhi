@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
+import SecondPage from "./SecondPage";
+import ThirdPage from "./ThirdPage";
+import Singer from "./singer";
+import Bestlook from "./Look";
+import Food from "./Food";
+import Place from "./place";
+import Actor from "./actor";
+import Final from "./final";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/second" element={<SecondPage />} />
+        <Route path="/third" element={<ThirdPage />} />
+        <Route path="/singer" element={<Singer />} />
+        <Route path="/best_look" element={<Bestlook />} />
+        <Route path="/food" element={<Food />} />
+        <Route path="/place" element={<Place />} />
+        <Route path="/actor" element={<Actor/>}/>
+        <Route path="/final" element={<Final/>}/>
+      </Routes>
+    </Router>
   );
 }
 
