@@ -11,6 +11,7 @@ function Final() {
   return (
     <div>
       <div className="finaltext container">
+        Ladiesss and Gentlemen let me introduce you to a very special person.
         Smardhi Verma, or gungun or samriddhi or sehradhi naam tere change hote
         honge but it doesnt change who you are a True friend, Excellent sister
         and an Amazing daughter and out of all ek bahut bahut Pyaari si Strong
@@ -27,16 +28,16 @@ function Final() {
         <button className="proof-button" onClick={handleButtonClick}>
           Proof
         </button>
-        Lucknow ki chaat ki terah baatein bhi ek dum chatpatti karti hai. Yaad
+        . Lucknow ki chaat ki terah baatein bhi ek dum chatpatti karti hai. Yaad
         rakhna Mujhe Singaporian chowmein khaana hai. Tera kisi joke ko bolne se
-        pehle hi hass dena .Hum sab ko wait karna padhta hai kab iska hasna ho jaaye. EK cheez i feel real good about is that joh bahar ek
-        smradhi dekhta tha but andar i have got to know that Strong and Bold
-        smradhi and I am grateful ki mai voh andar vaale smradhi ko jaan paaya
-        hoo. Tu rod se logon ko pitt deti hai, ek dum befikar hokar dance karti
-        hai aur gaati tu joh hai.....ohhhoooo yrr tum toh full hindi film hero
-        ho dude!!!. Abhi ek baar meri taraf dekh smile kar de ab. Yesss this
-        smile Never let this smile disappear because your smile is much more
-        worth than this world. Ab Aisa speech likha hai taali to baja de
+        pehle hi hass dena .Hum sab ko wait karna padhta hai kab iska hasna ho
+        jaaye. EK cheez i feel grateful about is that joh bahar ek Smradhi
+        dekhta tha but andar i have got to know that Strong and Bold Smradhi. Tu
+        rod se logon ko pitt deti hai, ek dum befikar hokar dance karti hai aur
+        gaati tu joh hai.....ohhhoooo yrr tum toh full hindi film hero ho
+        dude!!!. Abhi ek baar meri taraf dekh smile kar de ab. Yesss this smile
+        Never let this smile disappear because your smile is much more worth
+        than this world. Ab Aisa speech likha hai taali to baja de.
         {/* Button added here */}
       </div>
       <Link to="/actor">
