@@ -11,7 +11,7 @@ import Food from "./Food";
 import Place from "./place";
 import Actor from "./actor";
 import Final from "./final";
-import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function App() {
   return (
