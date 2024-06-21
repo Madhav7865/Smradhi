@@ -10,7 +10,7 @@ function Final() {
 
   return (
     <div>
-      <div className="finaltext container">
+      <div className="final">
         Ladiesss and Gentlemen let me introduce you to a very special person.
         Smardhi Verma, or gungun or samriddhi or sehradhi naam tere change hote
         honge but it doesnt change who you are a True friend, Excellent sister
@@ -41,7 +41,7 @@ function Final() {
         {/* Button added here */}
       </div>
       <Link to="/actor">
-        <button className="button-back mb-3">BACK</button>
+        <button className="button-back">BACK</button>
       </Link>
       {showPhoto && (
         <div className="overlay" onClick={handleButtonClick}>

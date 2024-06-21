@@ -10,7 +10,7 @@ function Look() {
         <header className="look-heading">
           <h1>Best Look</h1>
         </header>
-        <div className="container look-container">
+        <div className="container">
           <div className="column">
             <h2>SMRADHI</h2>
             <div className="look-text mt-5">So beautiful so elegant</div>

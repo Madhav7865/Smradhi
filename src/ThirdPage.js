@@ -65,10 +65,10 @@ function ThirdPage() {
       </div>
       <div>
         <Link to="/">
-          <button className="button-back mb-3">BACK</button>
+          <button className="button-back">BACK</button>
         </Link>
         <Link to="/singer">
-          <button className="button-next mb-3">NEXT</button>
+          <button className="button-next">NEXT</button>
         </Link>
       </div>
     </div>

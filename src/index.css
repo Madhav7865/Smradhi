@@ -216,8 +216,9 @@ code {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin: 80px; /* Adjust margin as needed */
+  margin: 40px; /* Adjust margin as needed */
   transition: all 0.5s ease; 
+
 }
 
 .button-back:active {
@@ -233,7 +234,7 @@ code {
   position: absolute;
   bottom: 0;
   right: 0;
-  margin: 80px; /* Adjust margin as needed */
+  margin: 40px; /* Adjust margin as needed */
   transition: all 0.5s ease;
 }
 .button-next:active {
@@ -246,12 +247,13 @@ code {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 20px 0;
+  font-size: 20px;
+  padding: 5px 0;
 }
-.singer-container {
+.container {
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  margin:auto;
   text-align: center;
 }
 .singer-text {
@@ -291,9 +293,10 @@ code {
 
 /*Food*/
 
-.finaltext {
+.final {
   color: rgb(41, 40, 40);
   font-size: 26px;
+  margin: 15px;
 }
 
 
